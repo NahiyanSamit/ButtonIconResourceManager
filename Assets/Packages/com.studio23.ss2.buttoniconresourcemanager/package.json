@@ -6,6 +6,12 @@
   "unityRelease": "15f1",
   "description": "This package is for managing icons for key bindings for Xbox Controller / Playstation Controller",
   "changelogUrl": "https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/CHANGELOG.md",
+  "samples": [
+    {
+      "displayName": "Ui Toolkit Usage Examples",
+      "description": "Contains starter scenes demonstrating using this package with UI Toolkit.",
+      "path": "Samples~/UIToolkitUsageExamples"
+    }],
   "scopedRegistries": [
     {
       "name": "Studio 23",
