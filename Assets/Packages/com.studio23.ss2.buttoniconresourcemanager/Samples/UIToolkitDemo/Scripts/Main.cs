@@ -22,13 +22,21 @@ public class Main : MonoBehaviour
     [SerializeField] private PanelSettings keyBoardPanelSettings;
     [SerializeField] private PanelSettings gamePadPanelSettings;
 
-    private void Awake()
+    private void OnEnable()
     {
         _document = GetComponent<UIDocument>();
         _rootElement = _document.rootVisualElement;
         _label = _rootElement.Q<Label>("label");
         _label2 = _rootElement.Q<Label>("label2");
-        
+    }
+
+    private void Start()
+    {
+        ShowUI();
+    }
+    
+    private void ShowUI()
+    {
         if (Gamepad.all.Count > 0)
         {
             _document.panelSettings = gamePadPanelSettings;
