@@ -1618,7 +1618,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse1
+      name: mouse2
       rect:
         serializedVersion: 2
         x: 1648
@@ -1640,7 +1640,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse2
+      name: mouse1
       rect:
         serializedVersion: 2
         x: 1750
@@ -1662,7 +1662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse3
+      name: mouse
       rect:
         serializedVersion: 2
         x: 1852
@@ -2146,7 +2146,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0
+      name: numpad0
       rect:
         serializedVersion: 2
         x: 12
@@ -2168,7 +2168,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 1
+      name: numpad1
       rect:
         serializedVersion: 2
         x: 114
@@ -2190,7 +2190,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 2
+      name: numpad2
       rect:
         serializedVersion: 2
         x: 216
@@ -2212,7 +2212,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 3
+      name: numpad3
       rect:
         serializedVersion: 2
         x: 318
@@ -2423,10 +2423,6 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      0: 373149650789630421
-      1: -8878214496618934580
-      2: 490843856715871399
-      3: -3651781795983231341
       A: 5169010260740296673
       a: 3858482293357130116
       alt: -5650669285445011879
@@ -2564,12 +2560,16 @@ TextureImporter:
       less: -745751518538288142
       m: 106291650969404688
       minus: -7253683287119920961
+      mouse: -4200093648206127691
       mouse0: -138514479744199349
-      mouse1: -6690134728856933690
-      mouse2: -6131163462091560442
-      mouse3: -4200093648206127691
+      mouse1: -6131163462091560442
+      mouse2: -6690134728856933690
       n: -6039863571465129590
       numLock: 3169644984234148710
+      numpad0: 373149650789630421
+      numpad1: -8878214496618934580
+      numpad2: 490843856715871399
+      numpad3: -3651781795983231341
       numpad4: 8875791363384633734
       numpad5: 3280127854909904202
       numpad6: 1531446247613542881

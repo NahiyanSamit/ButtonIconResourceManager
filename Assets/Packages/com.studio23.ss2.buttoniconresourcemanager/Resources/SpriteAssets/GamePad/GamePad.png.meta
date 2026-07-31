@@ -484,7 +484,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rightTrigge
+      name: rightTrigger
       rect:
         serializedVersion: 2
         x: 522
@@ -665,7 +665,7 @@ TextureImporter:
       rightBumper: 8214534391043496175
       rightStick: 4403734127083825471
       rightStickDown: 6536187095465710397
-      rightTrigge: 1897905978145395122
+      rightTrigger: 1897905978145395122
       share: -221367910605342733
       view: 8428049758795593856
       x: -4789853778727187021

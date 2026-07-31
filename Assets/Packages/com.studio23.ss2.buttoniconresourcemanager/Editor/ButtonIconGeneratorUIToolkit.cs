@@ -22,9 +22,15 @@ namespace Studio23.SS2.ButtonIconResourceManager.Editor
             Directory.CreateDirectory($"Assets/Resources/KeyIcons/SpriteAssets/GamePad");
             Directory.CreateDirectory($"Assets/Resources/KeyIcons/SpriteAssets/KeyBoard");
 
-            CreateSpriteAsset(keyBoardSpriteAsset, $"Assets/Resources/KeyIcons/SpriteAssets/KeyBoard/KeyBoard.asset");
+            if (keyBoardSpriteAsset != null)
+            {
+                CreateSpriteAsset(keyBoardSpriteAsset, $"Assets/Resources/KeyIcons/SpriteAssets/KeyBoard/KeyBoard.asset");
+            }
 
-            CreateSpriteAsset(gamepadSpriteAsset, $"Assets/Resources/KeyIcons/SpriteAssets/GamePad/GamePad.asset");
+            if (gamepadSpriteAsset != null)
+            {
+                CreateSpriteAsset(gamepadSpriteAsset, $"Assets/Resources/KeyIcons/SpriteAssets/GamePad/GamePad.asset");
+            }
 
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();

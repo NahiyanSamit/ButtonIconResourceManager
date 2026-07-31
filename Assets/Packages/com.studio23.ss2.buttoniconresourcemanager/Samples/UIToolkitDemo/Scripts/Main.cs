@@ -1,3 +1,4 @@
+using Studio23.SS2.ButtonIconResourceManager.core;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
@@ -9,10 +10,10 @@ public class Main : MonoBehaviour
     private VisualElement _rootElement;
     private Label _label;
     private Label _label2;
-    
-    private readonly string _labelText = "Hello There  <sprite name=\"{ICON}\">";
-    private readonly string _labelText2 ="<sprite name=\"{ICON2}\"> says hi";
-    string _bindingDisplayName;
+
+    private const string LabelText = "Hello There  <sprite name=\"{ICON}\">";
+    private const string LabelText2 = "<sprite name=\"{ICON2}\"> says hi";
+    private string _bindingDisplayName;
     
     [Header("Input")]
     [SerializeField] private InputActionReference inputActionReference;
@@ -27,21 +28,23 @@ public class Main : MonoBehaviour
         _rootElement = _document.rootVisualElement;
         _label = _rootElement.Q<Label>("label");
         _label2 = _rootElement.Q<Label>("label2");
-
+        
         if (Gamepad.all.Count > 0)
         {
             _document.panelSettings = gamePadPanelSettings;
 
             _bindingDisplayName = inputActionReference.action.GetBindingDisplayString(1);
+            _bindingDisplayName = KeyIconManager.Instance.GetSpriteName(_bindingDisplayName);
         }
         else
         {
             _document.panelSettings = keyBoardPanelSettings;
 
             _bindingDisplayName = inputActionReference.action.GetBindingDisplayString(0);
+            _bindingDisplayName = KeyIconManager.Instance.GetSpriteName(_bindingDisplayName);
         }
 
-        _label.text = _labelText.Replace("{ICON}", _bindingDisplayName);
-        _label2.text = _labelText2.Replace("{ICON2}", "b");
+        _label.text = LabelText.Replace("{ICON}", _bindingDisplayName);
+        _label2.text = LabelText2.Replace("{ICON2}", "b");
     }
 }

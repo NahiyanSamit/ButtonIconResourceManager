@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 15872761}
   - component: {fileID: 15872760}
   - component: {fileID: 15872762}
+  - component: {fileID: 15872763}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -188,8 +189,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Main
   inputActionReference: {fileID: 5060084290363366754, guid: cce85ae5439fe51499b7de1bd6781237, type: 3}
+  playerInput: {fileID: 15872763}
   keyBoardPanelSettings: {fileID: 11400000, guid: 63145c68a6feda847bcaa71d505abaef, type: 2}
   gamePadPanelSettings: {fileID: 11400000, guid: dd45af9a6ed34964d848a75b4a2be80b, type: 2}
+--- !u!114 &15872763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15872759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: cce85ae5439fe51499b7de1bd6781237, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!1 &928002051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928002052}
+  - component: {fileID: 928002053}
+  m_Layer: 0
+  m_Name: KeyIconManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928002052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928002051}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928002053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928002051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be725869a53006e488ab4b4bf7de49af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: com.studio23.ss2.buttoniconresourcemanager::Studio23.SS2.ButtonIconResourceManager.core.KeyIconManager
 --- !u!1 &1675133880
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,3 +364,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 1675133883}
   - {fileID: 15872761}
+  - {fileID: 928002052}

@@ -82,5 +82,17 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
             return null;
         }
 
+        
+        /// <summary>
+        /// Get Sprite Name from Sprite Asset Character Table based on input action binding name
+        /// </summary>
+        /// <param name="bindingDisplayName"></param>
+        /// <returns></returns>
+        public string GetSpriteName(string bindingDisplayName)
+        {
+	        string spriteName = new KeyBoardMappings().GetSpriteName(bindingDisplayName);
+	        return spriteName;
+        }
+
     }
 }
