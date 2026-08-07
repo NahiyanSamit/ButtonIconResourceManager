@@ -20,7 +20,7 @@
                 {
                     "name": "",
                     "id": "ccfe00ed-cc80-45ad-8677-e454b49bc619",
-                    "path": "<Keyboard>/a",
+                    "path": "<Keyboard>/contextMenu",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard",
@@ -31,7 +31,7 @@
                 {
                     "name": "",
                     "id": "614d8e25-3433-4bb9-a108-73c610243f7a",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": ";GamePad",

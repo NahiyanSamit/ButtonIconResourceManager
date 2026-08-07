@@ -1706,7 +1706,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: numLock
+      name: num Lock
       rect:
         serializedVersion: 2
         x: 12
@@ -2014,7 +2014,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leftShift
+      name: shift
       rect:
         serializedVersion: 2
         x: 1430
@@ -2036,7 +2036,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rightShift
+      name: scroll Lock
       rect:
         serializedVersion: 2
         x: 1534
@@ -2058,7 +2058,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: backslash
+      name: slash
       rect:
         serializedVersion: 2
         x: 1644
@@ -2234,7 +2234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilde
+      name: backquote
       rect:
         serializedVersion: 2
         x: 420
@@ -2409,6 +2409,138 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: period
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 13
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5552aaf2740264248b05f40e0f2b6ab6
+      internalID: 975299614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: numpadDivide
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 13
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5ca11636b7a54daace5f89c4a7bef
+      internalID: 1994182342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: break
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 15
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9803ea1b251fb0349b8858506bb1e7cd
+      internalID: -1750149524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: equals
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 13
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb81ff3e01d47084ca1111ba9d85babe
+      internalID: -1565533514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: comma
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 13
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baae5e3fb99ec94ca5e2fcd139100bc
+      internalID: 1329438671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Application
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 13
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f965cd9f39f8148b332a3fea19aca7
+      internalID: -1257739468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2421,9 +2553,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":2,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      A: 5169010260740296673
+      Application: -1257739468
       a: 3858482293357130116
       alt: -5650669285445011879
       atlas_0_10: -5650669285445011879
@@ -2516,11 +2650,13 @@ TextureImporter:
       atlas_0_90: 5560457071489383691
       atlas_0_91: -2085689531831184304
       b: -3469706378519938042
-      backslash: 966601717639426293
+      backquote: -4965599151114034421
       backspace: -4407903739543224103
       backspace2: -8859022259144477047
+      break: -1750149524
       c: 1132608296546716006
       capsLock: -6403628237019713047
+      comma: 1329438671
       command: 8155610594068109558
       ctrl: -8341852746435428279
       d: -2454214801161708038
@@ -2530,6 +2666,7 @@ TextureImporter:
       end: 651866998883098730
       enter: -6188992666017996680
       enterLeft: -4919999568147469026
+      equals: -1565533514
       escape: 727316223515876608
       f: -8529849829213914078
       f1: 5048749201386656756
@@ -2556,7 +2693,6 @@ TextureImporter:
       leftArrow: 5169010260740296673
       leftBracket: -3536175725568648624
       leftMeta: -6835058612083250293
-      leftShift: 1588311537760466308
       less: -745751518538288142
       m: 106291650969404688
       minus: -7253683287119920961
@@ -2565,7 +2701,8 @@ TextureImporter:
       mouse1: -6131163462091560442
       mouse2: -6690134728856933690
       n: -6039863571465129590
-      numLock: 3169644984234148710
+      num Lock: 3169644984234148710
+      numpad: 4307040679371126007
       numpad0: 373149650789630421
       numpad1: -8878214496618934580
       numpad2: 490843856715871399
@@ -2576,6 +2713,7 @@ TextureImporter:
       numpad7: -1219661890941803112
       numpad8: -6956632382796264757
       numpad9: 5988748885305558523
+      numpadDivide: 1994182342
       numpadEnter: 6010839991365106212
       numpadMultiply: 5790760991074591525
       numpadPlus: 4307040679371126007
@@ -2583,6 +2721,7 @@ TextureImporter:
       p: -1011184636342645077
       pageDown: 6788305348478204992
       pageUp: -1693800821287794186
+      period: 975299614
       plus: -4149853120792943977
       printScreen: 4551840036252321462
       q: 6210773119471510848
@@ -2591,13 +2730,14 @@ TextureImporter:
       r: -7963170826261912091
       rightArrow: -7598894091230575872
       rightBracket: 1303192625088774804
-      rightShift: 9131895418081723328
       s: 4968193853803555323
+      scroll Lock: 9131895418081723328
       semicolon: 3784208005123501746
+      shift: 1588311537760466308
+      slash: 966601717639426293
       space: -1839140200558781548
       t: -8498357609775239841
       tab: -8499037436514210886
-      tilde: -4965599151114034421
       u: 3016083628275271969
       upArrow: -1251316887895916464
       v: 698204674139221561
