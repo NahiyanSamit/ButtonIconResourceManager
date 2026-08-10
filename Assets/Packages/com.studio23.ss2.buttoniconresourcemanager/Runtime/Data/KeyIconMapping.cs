@@ -122,7 +122,10 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
                 {"D-Pad/Down","D-PadDown"},
                 {"D-Pad/Left","D-PadLeft"},
                 {"D-Pad/Right","D-PadRight"},
-                {"Back","Select"},
+                {"LS/X","LS"},
+                {"LS/Y","LS"},
+                {"RS/X","RS"},
+                {"RS/Y","RS"},
             };
         }
 
