@@ -3,71 +3,113 @@ guid: e0b6217e8dac9e1439f0fb21f6c586ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7834213258986282075
-    second: Xbox_0
+      213: 7717263063117510981
+    second: GamePad_0
   - first:
-      213: 8867337345420443070
-    second: Xbox_1
+      213: -1315512913220550431
+    second: GamePad_1
   - first:
-      213: 3346102048359200712
-    second: Xbox_2
+      213: 1410941503967247910
+    second: GamePad_2
   - first:
-      213: -8208218399121414660
-    second: Xbox_3
+      213: 8671986326371740838
+    second: GamePad_3
   - first:
-      213: -8908107722724381513
-    second: Xbox_4
+      213: -8829175606098965030
+    second: GamePad_4
   - first:
-      213: 2961646330409218291
-    second: Xbox_5
+      213: 5209052518892760132
+    second: GamePad_5
   - first:
-      213: -8457566178741570253
-    second: Xbox_6
+      213: 3929748798335045543
+    second: GamePad_6
   - first:
-      213: 7389484809937102497
-    second: Xbox_7
+      213: -4173360813770215028
+    second: GamePad_7
   - first:
-      213: -4559592554450751890
-    second: Xbox_8
+      213: 2675347516529559865
+    second: GamePad_8
   - first:
-      213: -6216974254548779218
-    second: Xbox_9
+      213: -1197723916106473080
+    second: GamePad_9
   - first:
-      213: -5952481262425809733
-    second: Xbox_10
+      213: 8643129042596426020
+    second: GamePad_10
   - first:
-      213: 5759654993489329034
-    second: Xbox_11
+      213: 7931948267068162664
+    second: GamePad_11
   - first:
-      213: 6718840827436700463
-    second: Xbox_12
+      213: -5426375965658399979
+    second: GamePad_12
   - first:
-      213: 8214534391043496175
-    second: Xbox_13
+      213: 655813010742373296
+    second: GamePad_13
   - first:
-      213: 4403734127083825471
-    second: Xbox_14
+      213: -7463398950831400881
+    second: GamePad_14
   - first:
-      213: 430449356248592832
-    second: Xbox_15
+      213: 3993458366922858323
+    second: GamePad_15
   - first:
-      213: 1897905978145395122
-    second: Xbox_16
+      213: 3184346438096775320
+    second: GamePad_16
   - first:
-      213: -221367910605342733
-    second: Xbox_17
+      213: -7567950884394876480
+    second: GamePad_17
   - first:
-      213: 8428049758795593856
-    second: Xbox_18
+      213: 7286528815640729390
+    second: GamePad_18
   - first:
-      213: -4789853778727187021
-    second: Xbox_19
+      213: 5023817132852157620
+    second: GamePad_19
   - first:
-      213: 8968652840102387011
-    second: Xbox_20
+      213: 3163475425057142108
+    second: GamePad_20
   - first:
-      213: 6536187095465710397
-    second: Xbox_21
+      213: -341702211134427852
+    second: GamePad_21
+  - first:
+      213: 148983877529494137
+    second: GamePad_22
+  - first:
+      213: 374608295686971041
+    second: GamePad_23
+  - first:
+      213: 7925761795411021476
+    second: GamePad_24
+  - first:
+      213: -7991286871011133685
+    second: GamePad_25
+  - first:
+      213: 7859673410530204855
+    second: GamePad_26
+  - first:
+      213: -5143128133363066815
+    second: GamePad_27
+  - first:
+      213: 5010867263603623579
+    second: GamePad_28
+  - first:
+      213: 4922879746884218570
+    second: GamePad_29
+  - first:
+      213: 6407205022739768074
+    second: GamePad_30
+  - first:
+      213: -7920692612503601045
+    second: GamePad_31
+  - first:
+      213: -8271691975129575140
+    second: GamePad_32
+  - first:
+      213: 8517950911131120533
+    second: GamePad_33
+  - first:
+      213: 8031536330479919433
+    second: GamePad_34
+  - first:
+      213: -7511475994041395927
+    second: GamePad_35
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -176,35 +218,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: a
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 110
-        width: 84
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a3a7736c88474390800000000000000
-      internalID: -7834213258986282075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: b
       rect:
         serializedVersion: 2
-        x: 111
-        y: 110
-        width: 84
-        height: 84
+        x: 41
+        y: 1492
+        width: 402
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,360 +233,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebd3751a55c1f0b70800000000000000
-      internalID: 8867337345420443070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dpadU
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 103
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c738a6a51ebf6e20800000000000000
-      internalID: 3346102048359200712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dpadDown
-      rect:
-        serializedVersion: 2
-        x: 308
-        y: 103
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf5ea81eadc861e80800000000000000
-      internalID: -8208218399121414660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dpadLeft
-      rect:
-        serializedVersion: 2
-        x: 409
-        y: 103
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7bc691e293b006480800000000000000
-      internalID: -8908107722724381513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dpadRight
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 103
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f0716265a1e91920800000000000000
-      internalID: 2961646330409218291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dpadUp
-      rect:
-        serializedVersion: 2
-        x: 614
-        y: 103
-        width: 98
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 33530cbde50b0aa80800000000000000
-      internalID: -8457566178741570253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leftBumper
-      rect:
-        serializedVersion: 2
-        x: 719
-        y: 120
-        width: 92
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a622719849bc8660800000000000000
-      internalID: 7389484809937102497
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leftStick
-      rect:
-        serializedVersion: 2
-        x: 821
-        y: 106
-        width: 92
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6e627fbab219b0c0800000000000000
-      internalID: -4559592554450751890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leftStickDown
-      rect:
-        serializedVersion: 2
-        x: 926
-        y: 107
-        width: 88
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bbcd0f454d9846da0800000000000000
-      internalID: -5952481262425809733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leftTrigger
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 7
-        width: 80
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8b7cbb53b76eef40800000000000000
-      internalID: 5759654993489329034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: menu
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 10
-        width: 80
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2391c5722e1e3d50800000000000000
-      internalID: 6718840827436700463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rightBumper
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 18
-        width: 92
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe890659183eff170800000000000000
-      internalID: 8214534391043496175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rightStick
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 4
-        width: 92
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f39a81a4bd43d1d30800000000000000
-      internalID: 4403734127083825471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rightTrigger
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 7
-        width: 80
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b1527c7e67b65a10800000000000000
-      internalID: 1897905978145395122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: share
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 19
-        width: 94
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3f7b2b3ee0b8decf0800000000000000
-      internalID: -221367910605342733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: view
-      rect:
-        serializedVersion: 2
-        x: 725
-        y: 10
-        width: 80
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 088f3561a9276f470800000000000000
-      internalID: 8428049758795593856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: x
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 8
-        width: 84
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bd47e0bd55078db0800000000000000
-      internalID: -4789853778727187021
+      spriteID: 549bc5b3ed9391b60800000000000000
+      internalID: 7717263063117510981
       vertices: []
       indices: 
       edges: []
@@ -575,10 +243,10 @@ TextureImporter:
       name: y
       rect:
         serializedVersion: 2
-        x: 927
-        y: 8
-        width: 84
-        height: 84
+        x: 525
+        y: 1492
+        width: 402
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34dd9187d3e077c70800000000000000
-      internalID: 8968652840102387011
+      spriteID: 1e0cc0ea9fb5ebde0800000000000000
+      internalID: -1315512913220550431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rightStickDown
+      name: a
       rect:
         serializedVersion: 2
-        x: 418
-        y: 4
-        width: 88
-        height: 91
+        x: 1009
+        y: 1492
+        width: 402
+        height: 402
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,8 +277,558 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d33d9ba788335ba50800000000000000
-      internalID: 6536187095465710397
+      spriteID: 62eb2d682dba49310800000000000000
+      internalID: 1410941503967247910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSRight
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1492
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acae602e95195870800000000000000
+      internalID: 8671986326371740838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: x
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add4de2b097787580800000000000000
+      internalID: -8829175606098965030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controllerExclusive
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1492
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ce4fccaa54a4840800000000000000
+      internalID: 5209052518892760132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadDown
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 1475
+        width: 366
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81f0b7837e3516c0800000000000000
+      internalID: -4173360813770215028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-Pad
+      rect:
+        serializedVersion: 2
+        x: 2894
+        y: 1444
+        width: 487
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881eb71b174d06fe0800000000000000
+      internalID: -1197723916106473080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSUp
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1008
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbe068657ae91900800000000000000
+      internalID: 655813010742373296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LT
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1012
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48dbae623eac6890800000000000000
+      internalID: -7463398950831400881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RS
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1008
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f9fb9f93d9b6730800000000000000
+      internalID: 3993458366922858323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadLeft
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1032
+        width: 430
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898e98cc632113c20800000000000000
+      internalID: 3184346438096775320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadRight
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 1032
+        width: 431
+        height: 358
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14a0274cc39f690800000000000000
+      internalID: -7567950884394876480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RB
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 1072
+        width: 410
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc9c24a01f28b540800000000000000
+      internalID: 5023817132852157620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: D-PadUp
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 992
+        width: 359
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e7691c0c411200800000000000000
+      internalID: 148983877529494137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LB
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 1072
+        width: 410
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae165a9240e23500800000000000000
+      internalID: 374608295686971041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSDown
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 508
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae06d54c56fdfd60800000000000000
+      internalID: 7925761795411021476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSLeft
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0773233eee391190800000000000000
+      internalID: -7991286871011133685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSRight
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc5c35135b231d60800000000000000
+      internalID: 7859673410530204855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RSUp
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 524
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14893905630ff98b0800000000000000
+      internalID: -5143128133363066815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LS
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 524
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b964abf3a3d2a8540800000000000000
+      internalID: 5010867263603623579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSDown
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 508
+        width: 402
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceaff81c05915440800000000000000
+      internalID: 4922879746884218570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LSLeft
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 524
+        width: 418
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03a0877507fae850800000000000000
+      internalID: 6407205022739768074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left Stick Press
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 524
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6089a8d80c041290800000000000000
+      internalID: -7920692612503601045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Right Stick Press
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 402
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11d3f259fb053d80800000000000000
+      internalID: -8271691975129575140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RT
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 44
+        width: 274
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5937f204937d53670800000000000000
+      internalID: 8517950911131120533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 96
+        width: 274
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94166ea5dbfb57f60800000000000000
+      internalID: 8031536330479919433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 96
+        width: 274
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925d9448160e1c790800000000000000
+      internalID: -7511475994041395927
       vertices: []
       indices: 
       edges: []
@@ -619,7 +837,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 61ba3a260aab30944ab9b593159e3bf4
+    spriteID: 53d3271722076eb469d67350b1703a83
     internalID: 0
     vertices: []
     indices: 
@@ -629,47 +847,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Xbox_0: -7834213258986282075
-      Xbox_1: 8867337345420443070
-      Xbox_10: -5952481262425809733
-      Xbox_11: 5759654993489329034
-      Xbox_12: 6718840827436700463
-      Xbox_13: 8214534391043496175
-      Xbox_14: 4403734127083825471
-      Xbox_15: 430449356248592832
-      Xbox_16: 1897905978145395122
-      Xbox_17: -221367910605342733
-      Xbox_18: 8428049758795593856
-      Xbox_19: -4789853778727187021
-      Xbox_2: 3346102048359200712
-      Xbox_20: 8968652840102387011
-      Xbox_3: -8208218399121414660
-      Xbox_4: -8908107722724381513
-      Xbox_5: 2961646330409218291
-      Xbox_6: -8457566178741570253
-      Xbox_7: 7389484809937102497
-      Xbox_8: -4559592554450751890
-      Xbox_9: -6216974254548779218
-      a: -7834213258986282075
-      b: 8867337345420443070
-      dpadDown: -8208218399121414660
-      dpadLeft: -8908107722724381513
-      dpadRight: 2961646330409218291
-      dpadU: 3346102048359200712
-      dpadUp: -8457566178741570253
-      leftBumper: 7389484809937102497
-      leftStick: -4559592554450751890
-      leftStickDown: -5952481262425809733
-      leftTrigger: 5759654993489329034
-      menu: 6718840827436700463
-      rightBumper: 8214534391043496175
-      rightStick: 4403734127083825471
-      rightStickDown: 6536187095465710397
-      rightTrigger: 1897905978145395122
-      share: -221367910605342733
-      view: 8428049758795593856
-      x: -4789853778727187021
-      y: 8968652840102387011
+      D-Pad: -1197723916106473080
+      D-PadDown: -4173360813770215028
+      D-PadLeft: 3184346438096775320
+      D-PadRight: -7567950884394876480
+      D-PadUp: 148983877529494137
+      GamePad_10: 8643129042596426020
+      GamePad_11: 7931948267068162664
+      GamePad_12: -5426375965658399979
+      GamePad_18: 7286528815640729390
+      GamePad_20: 3163475425057142108
+      GamePad_21: -341702211134427852
+      GamePad_6: 3929748798335045543
+      GamePad_8: 2675347516529559865
+      LB: 374608295686971041
+      LS: 5010867263603623579
+      LSDown: 4922879746884218570
+      LSLeft: 6407205022739768074
+      LSRight: 8671986326371740838
+      LSUp: 655813010742373296
+      LT: -7463398950831400881
+      Left Stick Press: -7920692612503601045
+      RB: 5023817132852157620
+      RS: 3993458366922858323
+      RSDown: 7925761795411021476
+      RSLeft: -7991286871011133685
+      RSRight: 7859673410530204855
+      RSUp: -5143128133363066815
+      RT: 8517950911131120533
+      Right Stick Press: -8271691975129575140
+      Select: 8031536330479919433
+      Start: -7511475994041395927
+      a: 1410941503967247910
+      b: 7717263063117510981
+      controllerExclusive: 5209052518892760132
+      x: -8829175606098965030
+      y: -1315512913220550431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

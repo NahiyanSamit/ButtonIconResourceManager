@@ -2,13 +2,13 @@ using System.Collections.Generic;
 
 namespace Studio23.SS2.ButtonIconResourceManager.Data
 {
-    internal class KeyBoardMappings
+    internal class KeyIconMappings
     {
-        private readonly Dictionary<string, string> _keyBoardCharacterMappings;
+        private readonly Dictionary<string, string> _keyCharacterMappings;
 
-        public KeyBoardMappings()
+        public KeyIconMappings()
         {
-            _keyBoardCharacterMappings = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase)
+            _keyCharacterMappings = new Dictionary<string, string>(System.StringComparer.OrdinalIgnoreCase)
             {
                 // Numbers
                 { "0", "numpad0" },
@@ -76,10 +76,12 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
 
                 // Numpad Operators
                 { "Num +", "numpadPlus" },
+                { "+", "numpadPlus" },
                 { "Num -", "numpadMinus" },
                 { "Num *", "numpadMultiply" },
+                { "*", "numpadMultiply" },
                 { "Num /", "numpadDivide" },
-                { "Num .", "numpadDecimal" },
+                { "Num del", "period" },
 
                 // Symbols
                 { "-", "minus" },
@@ -101,14 +103,32 @@ namespace Studio23.SS2.ButtonIconResourceManager.Data
                 // Mouse
                 {"LMB", "mouse0"},
                 {"RMB", "mouse1"},
-                {"MMB", "mouse2"}
+                {"MMB", "mouse2"},
+                {"delta", "mouse"},
+                {"position", "mouse"},
+                {"forward", "mouse"},
+                {"back", "mouse"},
                 
+                // GamePad
+                {"LS/Up","LSUp"},
+                {"LS/Down","LSDown"},
+                {"LS/Left","LSLeft"},
+                {"LS/Right","LSRight"},
+                {"RS/Up","RSUp"},
+                {"RS/Down","RSDown"},
+                {"RS/Left","RSLeft"},
+                {"RS/Right","RSRight"},
+                {"D-Pad/Up","D-PadUp"},
+                {"D-Pad/Down","D-PadDown"},
+                {"D-Pad/Left","D-PadLeft"},
+                {"D-Pad/Right","D-PadRight"},
+                {"Back","Select"},
             };
         }
 
         public string GetSpriteName(string displayName)
         {
-            if (_keyBoardCharacterMappings.TryGetValue(displayName, out var spriteName))
+            if (_keyCharacterMappings.TryGetValue(displayName, out var spriteName))
                 return spriteName;
 
             // Fallback

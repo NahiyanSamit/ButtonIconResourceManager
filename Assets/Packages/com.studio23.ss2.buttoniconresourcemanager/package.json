@@ -1,9 +1,9 @@
 {
   "name": "com.studio23.ss2.buttoniconresourcemanager",
   "displayName": "Button Icon Resource Manager",
-  "version": "2.0.11",
-  "unity": "2021.3",
-  "unityRelease": "15f1",
+  "version": "2.0.12",
+  "unity": "6000.3",
+  "unityRelease": "20f1",
   "description": "This package is for managing icons for key bindings for Xbox Controller / Playstation Controller",
   "changelogUrl": "https://github.com/Studio-23-xyz/ButtonIconResourceManager/blob/upm/CHANGELOG.md",
   "samples": [

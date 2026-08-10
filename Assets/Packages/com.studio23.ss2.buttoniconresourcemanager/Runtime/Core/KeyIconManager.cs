@@ -90,7 +90,7 @@ namespace Studio23.SS2.ButtonIconResourceManager.core
         /// <returns></returns>
         public string GetSpriteName(string bindingDisplayName)
         {
-	        string spriteName = new KeyBoardMappings().GetSpriteName(bindingDisplayName);
+	        string spriteName = new KeyIconMappings().GetSpriteName(bindingDisplayName);
 	        return spriteName;
         }
 
